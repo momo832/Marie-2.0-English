@@ -18,35 +18,19 @@ from tg_bot.modules.helper_funcs.chat_status import is_user_admin
 from tg_bot.modules.helper_funcs.misc import paginate_modules
 
 PM_START_TEXT = """
-היי {}, ברוך הבא לבוט הניהול של רובוטריק. \n להצטרפות לקבוצה \n
+היי {} ברוך הבא לבוט הניהול של רובוטריק. \n להצטרפות לקבוצה \n
 T.me/robot\_trick\_Group
-
+\n
+הבוט רץ ע"י @Yishaicohen 
 
 
 
 """
 
 HELP_STRINGS = """
-
-Hello! my name *{}*.
-
-*Main* available commands:
- - /start: Start the bot...
- - /help: help....
- - /settings:
-   - in PM: To find out what SETTINGS you have set....
-   - in a group:
-
-{}
-And the following:
-""".format(dispatcher.bot.first_name, "" if not ALLOW_EXCL else "\nAll of the following commands  / or ! can  be used...\n")
-
-DONATE_STRING = """Heya, glad to hear you want to donate!
-It took lots of work for [my creator](t.me/SonOfLars) to get me to where I am now, and every donation helps \
-motivate him to make me even better. All the donation money will go to a better VPS to host me, and/or beer \
-(see his bio!). He's just a poor student, so every little helps!
-There are two ways of paying him; [PayPal](paypal.me/PaulSonOfLars), or [Monzo](monzo.me/paulnionvestergaardlarsen)."""
-
+הבוט פרטי אז אין לך מה לחפש כאן... 
+"""
+DONATE_STRING = """לתרומות @Yishaicohen"""
 IMPORTED = {}
 MIGRATEABLE = []
 HELPABLE = {}
