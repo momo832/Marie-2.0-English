@@ -64,12 +64,12 @@ def warn(user: User, chat: Chat, reason: str, message: Message, warner: User = N
 
     else:
         keyboard = InlineKeyboardMarkup(
-            [[InlineKeyboardButton("Remove warn", callback_data="rm_warn({})".format(user.id))]])
+            [[InlineKeyboardButton("הסרת אזהרה (מנהל בלבד)", callback_data="rm_warn({})".format(user.id))]])
 
         reply = "{} יש לך {} אזהרות מתוך 3 זהירות!".format(mention_html(user.id, user.first_name), num_warns,
                                                              limit)
         if reason:
-            reply += "\nהסיבה לאזהרה האחרונה:\n{}".format(html.escape(reason))
+            reply += "\nהסיבה לאזהרה האחרונה הייתה:\n{}".format(html.escape(reason))
 
         log_reason = "<b>{}:</b>" \
                      "\n#WARN" \
