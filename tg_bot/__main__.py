@@ -19,7 +19,7 @@ from tg_bot.modules.helper_funcs.misc import paginate_modules
 
 PM_START_TEXT = """
 היי {}, ברוך הבא לבוט הניהול של רובוטריק. \n להצטרפות לקבוצה \n
-T.me/robot_trick_Group
+T.me/robot\_trick\_Group
 
 
 
@@ -33,7 +33,6 @@ Hello! my name *{}*.
 *Main* available commands:
  - /start: Start the bot...
  - /help: help....
- - /donate: To find out more about donating!
  - /settings:
    - in PM: To find out what SETTINGS you have set....
    - in a group:
