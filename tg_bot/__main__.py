@@ -110,12 +110,12 @@ def start(bot: Bot, update: Update, args: List[str]):
                 IMPORTED["rules"].send_rules(update, args[0], from_pm=True)
 
         else:
-            first_name = update.effective_user.id
+            first_name = update.effective_user.first_name 
             update.effective_message.reply_text(
-                PM_START_TEXT.format(escape_markdown(id), escape_markdown(bot.id), OWNER_ID),
+                PM_START_TEXT.format(escape_markdown(first_name), escape_markdown(bot.first_name), OWNER_ID),
                 parse_mode=ParseMode.MARKDOWN)
     else:
-        update.effective_message.reply_text("waked up😏😏😏")
+        update.effective_message.reply_text("ער תמיד 😜")
 
 
 # for test purposes
