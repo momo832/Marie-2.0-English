@@ -17,8 +17,11 @@ from tg_bot.modules import ALL_MODULES
 from tg_bot.modules.helper_funcs.chat_status import is_user_admin
 from tg_bot.modules.helper_funcs.misc import paginate_modules
 
-PM_START_TEXT = """היי (tg://user?id={}) ברוך הבא לבוט הניהול של רובוטריק. \n להצטרפות לקבוצה \nT.me/robot\_trick\_Group
-\nהבוט רץ ע"י @Yishaicohen
+PM_START_TEXT = """היי {} ברוך הבא לבוט הניהול של רובוטריק! 
+[להצטרפות לקבוצה ↙️↙️](T.me/robot_trick_Group)
+T.me/robot\_trick\_Group
+
+הבוט רץ ע"י @Yishaicohen
 """
 
 HELP_STRINGS = """
