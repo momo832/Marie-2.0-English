@@ -94,7 +94,7 @@
     }
   ],
   "stack": "heroku-18",
-  "buildpacks": [],
+  "buildpacks":
   "formation": {
     "web": {
       "quantity": 1,
